@@ -1,0 +1,6 @@
+vehicleId,name,brand,air cond,heating,fuel,category
+100,500,FIAT,yes,yes,gasoline,city car
+101,207,PEUGEOT,yes,yes,diesel,city car
+102,cargo,OPEL,no,yes,diesel,utility
+103,serie 2,BMW,yes,yes,diesel,monospace
+104,Berlingo,CITROEN,yes,no,diesel,monospace

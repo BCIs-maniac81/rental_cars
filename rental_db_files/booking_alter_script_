@@ -1,0 +1,5 @@
+ALTER TABLE booking DROP CONSTRAINT IF EXISTS  booking_client_id_client_id_fkey;
+ALTER TABLE booking DROP CONSTRAINT IF EXISTS  booking_vehicleid_car_vehicleid_fkey;
+
+ALTER TABLE booking ADD CONSTRAINT booking_client_id_client_id_fkey FOREIGN KEY (client_id) REFERENCES client (id);
+ALTER TABLE booking ADD CONSTRAINT booking_vehicleid_car_vehicleid_fkey FOREIGN KEY (vehicleid) REFERENCES car (vehicleid);

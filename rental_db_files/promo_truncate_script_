@@ -1,0 +1,5 @@
+SELECT * FROM promo;
+
+TRUNCATE TABLE promo RESTART IDENTITY;
+
+SELECT * FROM promo;

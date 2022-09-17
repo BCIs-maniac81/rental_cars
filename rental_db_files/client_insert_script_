@@ -1,0 +1,4 @@
+INSERT INTO client (first_name, last_name, birthday, address_1, city, zip_code,
+                   country, email, phone_number, password) 
+           VALUES ('joe', 'biden', '1938-01-01', 'W.DC.', 'W.DC.',
+                   '0014250', 'USA', 'joe@email.com', '09999999', '1234567890')

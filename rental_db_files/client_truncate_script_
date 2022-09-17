@@ -1,0 +1,7 @@
+SELECT * FROM client;
+SELECT * FROM booking;
+
+TRUNCATE TABLE client, booking RESTART IDENTITY;
+
+SELECT * FROM client;
+SELECT * FROM booking;

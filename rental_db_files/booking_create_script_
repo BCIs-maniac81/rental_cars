@@ -1,0 +1,2 @@
+CREATE TABLE booking (id SERIAL PRIMARY KEY, client_id INT NOT NULL,
+                      vehicleid SMALLINT NOT NULL, start_day DATE NOT NULL, end_day DATE NOT NULL);

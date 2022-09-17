@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS car (vehicleId SERIAL PRIMARY KEY, name VARCHAR(40), brand_id SMALLINT,
+                               air_cond VARCHAR(12), heating VARCHAR(12), fuel VARCHAR(40), category_id VARCHAR(40));
+CREATE TABLE IF NOT EXISTS brand (id SERIAL PRIMARY KEY, brand VARCHAR(40) UNIQUE, site VARCHAR(30));
+CREATE TABLE IF NOT EXISTS category (id SERIAL PRIMARY KEY, category VARCHAR(40) UNIQUE);

@@ -1,0 +1,4 @@
+CREATE TABLE car (vehicleId SERIAL PRIMARY KEY, name VARCHAR(40) NOT NULL, brand_id SMALLINT NOT NULL, air_cond VARCHAR(12),
+                  heating VARCHAR(12), fuel VARCHAR(40), category_id SMALLINT NOT NULL);
+                  
+ALTER SEQUENCE car_vehicleid_seq RESTART WITH 100;

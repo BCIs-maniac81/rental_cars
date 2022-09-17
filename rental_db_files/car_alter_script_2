@@ -1,0 +1,9 @@
+ALTER TABLE car ADD COLUMN IF NOT EXISTS daily_cost DECIMAL(7,3);
+ 
+UPDATE car SET daily_cost = 102.3 WHERE vehicleid = 100;  
+UPDATE car SET daily_cost = 143.217 WHERE vehicleid = 101;
+UPDATE car SET daily_cost = 170.1 WHERE vehicleid = 102;
+UPDATE car SET daily_cost = 250.5 WHERE vehicleid = 103;
+UPDATE car SET daily_cost = 300.0 WHERE vehicleid = 104;
+
+SELECT * FROM car;

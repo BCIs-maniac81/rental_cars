@@ -1,0 +1,11 @@
+INSERT INTO booking (client_id, vehicleid, start_day, end_day) VALUES(2, 101, '2022-01-01', '2023-01-01');
+INSERT INTO booking (client_id, vehicleid, start_day, end_day) VALUES(3, 103, '2022-01-15', '2023-02-01');
+
+
+DELETE FROM booking;
+
+TRUNCATE booking RESTART IDENTITY;
+
+SELECT * FROM booking;
+
+

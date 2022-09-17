@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS promo (id SERIAL PRIMARY KEY, vehicleid SMALLINT NOT NULL,
+                    start_day date NOT NULL, end_day date NOT NULL, rate DECIMAL(3,2) NOT NULL);

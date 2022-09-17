@@ -1,0 +1,4 @@
+ALTER TABLE promo DROP CONSTRAINT IF EXISTS promo_vaehicleid_car_vehicleid_fkey;
+
+ALTER TABLE promo ADD CONSTRAINT promo_vaehicleid_car_vehicleid_fkey FOREIGN KEY (vehicleid) REFERENCES car(vehicleid); 
+

@@ -1,0 +1,7 @@
+ALTER TABLE car DROP CONSTRAINT IF EXISTS  car_brand_id_brand_id_fkey;
+ALTER TABLE car DROP CONSTRAINT IF EXISTS  car_category_id_category_id_fkey;
+
+ALTER TABLE car ADD CONSTRAINT car_brand_id_brand_id_fkey FOREIGN KEY (brand_id) REFERENCES brand(id);
+ALTER TABLE car ADD CONSTRAINT car_category_id_category_id_fkey FOREIGN KEY (category_id) REFERENCES category(id);
+
+

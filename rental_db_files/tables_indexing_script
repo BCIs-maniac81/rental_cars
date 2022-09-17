@@ -1,0 +1,22 @@
+CREATE INDEX IF NOT EXISTS brand_id_idx ON brand(id);
+
+CREATE INDEX IF NOT EXISTS category_id_idx ON category(id);
+
+CREATE INDEX IF NOT EXISTS car_vehicleid_idx ON car(vehicleid);
+CREATE INDEX IF NOT EXISTS car_name_idx ON car(name);
+CREATE INDEX IF NOT EXISTS car_brand_id_idx ON car(brand_id);
+CREATE INDEX IF NOT EXISTS car_category_id_idx ON car(category_id);
+
+CREATE INDEX IF NOT EXISTS client_id_idx ON client(id);
+CREATE INDEX IF NOT EXISTS client_firstname_idx ON client(first_name);
+CREATE INDEX IF NOT EXISTS client_lastname_idx ON client(last_name);
+CREATE INDEX IF NOT EXISTS client_birthday_idx ON client(birthday);
+CREATE INDEX IF NOT EXISTS client_zipcode_idx ON client(zip_code);
+CREATE INDEX IF NOT EXISTS client_phonenumber_idx ON client(phone_number);
+
+CREATE INDEX IF NOT EXISTS booking_id_idx ON booking(id);
+CREATE INDEX IF NOT EXISTS booking_vehicleid_idx ON booking(vehicleid);
+
+CREATE INDEX IF NOT EXISTS promo_id_idx ON promo(id);
+CREATE INDEX IF NOT EXISTS promo_vehicleid_idx ON promo(vehicleid);
+CREATE INDEX IF NOT EXISTS promo_rate_idx ON promo(rate);

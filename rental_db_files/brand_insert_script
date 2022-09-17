@@ -1,0 +1,5 @@
+INSERT INTO brand (brand, site) VALUES ('FIAT', 'ITALY');
+INSERT INTO brand (brand, site) VALUES ('PEUGEOT', 'FRANCE');
+INSERT INTO brand (brand, site) VALUES ('OPEL', 'GERMANY');
+INSERT INTO brand (brand, site) VALUES ('BMW', 'GERMANY');
+INSERT INTO brand (brand, site) VALUES ('CITROEN', 'FRNACE');

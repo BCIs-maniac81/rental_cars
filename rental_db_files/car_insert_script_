@@ -1,0 +1,10 @@
+INSERT INTO car (name, brand_id, air_cond, heating, fuel, category_id) VALUES
+                ('500', 1, 'yes', 'yes', 'gasoline', 1);
+INSERT INTO car (name, brand_id, air_cond, heating, fuel, category_id) VALUES
+                ('207', 2, 'yes', 'yes', 'diesel', 1);               
+INSERT INTO car (name, brand_id, air_cond, heating, fuel, category_id) VALUES
+                ('cargo', 3, 'no', 'yes', 'diesel', 2);
+INSERT INTO car (name, brand_id, air_cond, heating, fuel, category_id) VALUES
+                ('serie 2', 4, 'yes', 'yes', 'diesel', 3);   
+INSERT INTO car (name, brand_id, air_cond, heating, fuel, category_id) VALUES
+                ('berlingo', 5, 'yes', 'no', 'diesel', 3);               
