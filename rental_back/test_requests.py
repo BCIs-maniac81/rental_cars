@@ -2,7 +2,7 @@ import requests
 
 base = 'http://127.0.0.1:5000'
 
-# response1 = requests.get(base + '/rental/all')
+response1 = requests.get(base + '/rental/all')
 # response2 = requests.get(base + '/rental/preview')
 # response3 = requests.get(base + '/rental/100')
 # response4 = requests.post(
@@ -14,7 +14,7 @@ base = 'http://127.0.0.1:5000'
 #                  &&country_UK&&email_jb@email.com&&phone_787878787\
 #                      &&pass_1234')
 
-response6 = requests.post(
-    base + '/rental/promo/car_103&&sdate_2022-09-01&&edate_2022-10-11&&rate_0.6')
+# response6 = requests.post(
+#     base + '/rental/promo/car_103&&sdate_2022-09-01&&edate_2022-10-11&&rate_0.6')
 
-print(response6.json())
+print(response1.json())
